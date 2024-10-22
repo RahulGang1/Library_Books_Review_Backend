@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://paras22:BB2orhb1NHhtvT0J@cluster0.gejab.mongodb.net/bookData?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://rahulgangwar22:rukswP4DDbn5fgBH@cluster0.npslo.mongodb.net/Books_Backend?retryWrites=true&w=majority&appName=Cluster0');
 
 const bookSchema = new mongoose.Schema({
   title: String,
